@@ -5,6 +5,9 @@ Guidelines for Using the Command Line Interface (CLI)
 
 To use the Super Advanced Stress Test Tool for Websites via the command line interface (CLI), follow these guidelines:
 
+![pyflood](https://github.com/SHAYKHUL/pyflood/assets/93441521/810ca786-6cef-4545-a80d-fc7e7b6e9b1c)
+
+
 Basic Usage:
 
 The basic command structure is as follows:
