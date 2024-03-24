@@ -5,11 +5,11 @@ Guidelines for Using the Command Line Interface (CLI)
 
 To use the Super Advanced Stress Test Tool for Websites via the command line interface (CLI), follow these guidelines:
 
-    Basic Usage:
+Basic Usage:
 
-    The basic command structure is as follows:
+The basic command structure is as follows:
 
-python3 pyflood.py [host] [options]
+    python3 pyflood.py [host] [options]
 
 Replace [host] with the target website's hostname or IP address. You can also specify various options to customize the stress testing parameters.
 
@@ -26,21 +26,17 @@ Options:
 
 Examples:
 
-    Perform stress testing on a website using default parameters:
+Perform stress testing on a website using default parameters:
 
-python3 pyflood.py example.com
+    python3 pyflood.py example.com
 
 Perform stress testing on a website with HTTPS enabled:
 
-css
-
-python3 pyflood.py example.com --https
+    python3 pyflood.py example.com --https
 
 Customize the number of sockets to use:
 
-yaml
-
-python3 pyflood.py example.com -s 1000
+    python3 pyflood.py example.com -s 1000
 
 Enable verbose logging for detailed output:
 
